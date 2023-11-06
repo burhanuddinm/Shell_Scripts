@@ -1,0 +1,147 @@
++++++++++++++++++++++++++++++
+
+
+Shell scripting Assignment
+
+Create a script name `ls` and it should print echo "hello world" and use PATH variable to setup script location
+
+NOTE: ls command should print this custom `ls` named script.
+
++++++++++++++++++++++++++++++
+
+Create below custom coloured shell prompt:
+
+Format: [error code of last messsage][ssh type of current session]>
+
+Example -
+[0][pts/1]
+[127][pts/2]>
+
++++++++++++++++++++++++++++++
+
+Please create a script which will take seconds as input and output will be in D H M S format like below
+
++++++++++++++++++++++++++++++
+
+Task:
+Create a below matrix effect which print binary number one by one.
+    - example -> "0 1 1 0 1 0 1 0 " [ should pick random ]
+
++++++++++++++++++++++++++++++
+Task:
+Write a script to check whether a number is armstrong or not
+       Hint : Armstrong number is a number which is equal to  sum of cubes of its digit. Example :point_down:
+153 = (1*1*1)+(5*5*5)+(3*3*3)
+where:
+(1*1*1)=1
+(5*5*5)=125
+(3*3*3)=27
+write a script which will print a pyramid pattern like this : :point_down:
+        *
+      * * *
+    * * * * *
+  * * * * * * *
+* * * * * * * * *
++++++++++++++++++++++++++++++
+
+for this assignment, you need to create a script that acts as a calculator, input and output will be as below:
+./calc_switch.sh add 24 5 7 10 9 22
+Sum of all the numbers is: 77
+
+./calc_switch.sh sub 24 5 7 10 9 22
+Oops! Subtraction function accepts only 2 numbers!!!!
+
+./calc_switch.sh mul 24 5
+Multiplicatin result: 120
+
+./calc_switch.sh div 24 9
+Dividing 24 by 9! Quotient: 2, remainder is: 6
+Good to do:
+Number factorial
+
++++++++++++++++++++++++++++++
+
+Today's Task : Create download bar with custom Diwali lights
+
++++++++++++++++++++++++++++++
+
+Today's Task:
+Below Input has four space-separated columns containing the scores of students in three subjects. The first column contains the student's identifier & the next three columns has number between 0-100. These numbers denote the scores of the students in English, Mathematics, and Science, respectively.
+
+Task: Using Awk you have to identify whether each of the students has passed or failed. A student is considered to have passed if (s)he has a score 50 or more in each of the three subjects
+
+Input:
+A 25 27 50
+B 35 37 75
+C 75 78 80
+D 99 88 76
+
+Output:
+A : Fail
+B : Fail
+C : Pass
+D : Pass
+
++++++++++++++++++++++++++++++    
+
+W.A.S. to Parse this JSON to get following output -
+Output -
+vikas15noida:linux,ansible,k8s
+pankaj17@delhi:linux,chef,docker,k8s
+.
+.
+JSON -
+[
+    {
+        "name":"vikas",
+        "age":15,
+        "lock":"noida",
+        "skills": [
+            "linux",
+            "ansible",
+            "k8s"
+        ]
+    },
+    {
+        "name":"bhuppi",
+        "age":16,
+        "lock":"delhi",
+        "gender":"male",
+        "skills": [
+            "linux",
+            "ansible",
+            "nagios"
+        ]
+    },
+    {
+        "name":"himanshu",
+        "age":17,
+        "lock":"dehradun",
+        "skills": [
+            "linux",
+            "ansible"
+        ]
+    },
+    {
+        "name":"prakash",
+        "age":17,
+        "lock":"kolkata",
+        "skills": [
+            "linux",
+            "chef",
+            "docker"
+        ]
+    },
+    {
+        "name":"pankaj",
+        "age":17,
+        "lock":"delhi",
+        "skills": [
+            "linux",
+            "chef",
+            "docker",
+            "k8s"
+        ]
+    }
+
+]
